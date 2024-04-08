@@ -5,20 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nacionalidade</title>
 </head>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
 <body>
     Onde você nasceu? <input type="text" name="txtna" id="txtna">
-    <input type="button" value="Verificar" onclick="true()">
-    <div id="res">
-
-    </div>
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res"></div>
     <script>
-        function true() {
-            var pais = window.document.querySelector('input#txtna')
-            var res = window.document.querySelector('div#res')
-            if (pais == brasil) {
-                res.innerHTML = `<p>Você é brasileiro.</p>`
+        function calcular() {
+            var pais = document.querySelector('input#txtna').value.toLowerCase();
+            var res = document.querySelector('div#res');
+            if (pais === 'brasil') {
+                res.innerHTML = `<p>Você é brasileiro.</p>`;
             } else {
-            res.innerHTML = `<p>Você é estrangeiro.</p>`
+                res.innerHTML = `<p>Você é estrangeiro.</p>`;
             }
         }
     </script>
