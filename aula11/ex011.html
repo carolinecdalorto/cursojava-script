@@ -14,9 +14,9 @@
     <div id="res"></div>
     <script>
         function calcular() {
-            var pais = document.querySelector('input#txtna');
+            var pais = document.querySelector('input#txtna').value;
             var res = document.querySelector('div#res');
-            if (pais === 'brasil') {
+            if (pais == 'brasil') {
                 res.innerHTML = `<p>Você é brasileiro.</p>`;
             } else {
                 res.innerHTML = `<p>Você é estrangeiro.</p>`;
