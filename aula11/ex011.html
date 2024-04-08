@@ -16,7 +16,7 @@
         function calcular() {
             var txt = document.querySelector('input#txtna')
             var res = document.querySelector('div#res')
-            var pais = txt.value
+            var pais = txt.value.toLowerCase()
             if (pais == 'brasil') {
                 res.innerHTML = `<p>Você é brasileiro.</p>`
             } else {
