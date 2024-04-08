@@ -6,7 +6,7 @@
     <title>Nacionalidade</title>
 </head>
 <body>
-    Onde você nasceu? <input type="text" name="txtna" id="txtna">.
+    Onde você nasceu? <input type="text" name="txtna" id="txtna">
     <input type="button" value="Verificar" onclick="calcular()">
     <div id="res">
 
@@ -15,11 +15,10 @@
         function calcular() {
             var pais = window.document.querySelector('input#txtna')
             var res = window.document.querySelector('div#res')
-            res.innerHTML = `<p>Você nasceu em ${pais}</p>`
             if (pais == brasil) {
-                res.innerHTML += `<p>Você é brasileiro.</p>`
+                res.innerHTML = `<p>Você é brasileiro.</p>`
             } else {
-            res.innerHTML += `<p>Você é estrangeiro.</p>`
+            res.innerHTML = `<p>Você é estrangeiro.</p>`
             }
         }
     </script>
