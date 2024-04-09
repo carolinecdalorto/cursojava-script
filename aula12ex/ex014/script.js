@@ -8,7 +8,7 @@ function carregar() {
     if (hora >= 0 && hora < 12) {
         img.src = 'manha.png'
         document.body.style.background = '#d2d2e4'
-    } else if (hora >= 12 && hora < 18) { // Aqui está a correção
+    } else if (hora >= 12 && hora <= 18) { // Aqui está a correção
         img.src = 'tarde.png'
         document.body.style.background = '#c29d58';
     } else {
