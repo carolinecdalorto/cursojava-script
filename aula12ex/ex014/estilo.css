@@ -17,6 +17,10 @@ body {
    
  }
 
+ div {
+   text-align: center;
+ }
+
  footer {
     color: white;
     text-align: center;
