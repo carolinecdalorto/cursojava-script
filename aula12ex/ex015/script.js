@@ -42,7 +42,6 @@ function verificar() {
 
             }
         }
-        res.style.padding = '10px'
         res.style.textAlign = 'center'
         res.innerHTML = `Detectamos ${genero} com ${idade} anos.`
         res.appendChild(img)
