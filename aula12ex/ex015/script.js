@@ -5,7 +5,10 @@ function verificar() {
     var res = document.querySelector('div#res')
     if (fano.value.lenght == 0 || fano.value > ano) {
         window.alert('[ERRO] Verifique os dados e tente novamente')
-    } else [
-        window.alert('tudo ok')
-    ]
+    } else {
+        var fsex = document.getElementsByName('radsex')
+        var idade = ano - Number(fano.value)
+        res.innerHTML = `Idade Calculada: ${idade}`
+    }
+
 }
