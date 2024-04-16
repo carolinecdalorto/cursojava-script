@@ -16,23 +16,30 @@ function verificar() {
             if (idade >=0 && idade < 10) {
                 img.setAttribute('src','bebeboy.png')
             } else if (idade < 21) {
+                img.setAttribute('src','jovemboy.png')
 
             } else if (idade > 50) {
+                img.setAttribute('src','matureboy.png')
 
             } else {
+                img.setAttribute('src','velho.png')
 
             }
 
         } else if (fsex[1].checked) {
             genero = 'Mulher'
             if (idade >=0 && idade < 10) {
+                img.setAttribute('src','bebegirl.png')
 
             } else if (idade < 21) {
+                img.setAttribute('src','jovemgirl.png')
 
             } else if (idade > 50) {
+                img.setAttribute('src','maturegirl.png')
 
             } else {
-                
+                img.setAttribute('src','velha.png')
+
             }
         }
         res.computedStyleMap.textAlign = 'center'
