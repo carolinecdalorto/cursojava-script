@@ -14,7 +14,7 @@ function verificar() {
         if (fsex[0].checked) {
             genero = 'Homem'
             if (idade >=0 && idade < 10) {
-                img.setAttribute('src',)
+                img.setAttribute('src','bebeboy.png')
             } else if (idade < 21) {
 
             } else if (idade > 50) {
