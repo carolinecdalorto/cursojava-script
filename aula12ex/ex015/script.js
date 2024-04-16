@@ -34,7 +34,7 @@ function verificar() {
             } else if (idade < 21) {
                 img.setAttribute('src','jovemgirl.png')
 
-            } else if (idade > 50) {
+            } else if (idade < 50) {
                 img.setAttribute('src','maturegirl.png')
 
             } else {
