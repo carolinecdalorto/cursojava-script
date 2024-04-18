@@ -6,6 +6,4 @@ function tabuada() {
     } else {
         var n = Number(num.value)
     }
-
-
 }
