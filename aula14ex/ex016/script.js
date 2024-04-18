@@ -10,6 +10,10 @@ function contar() {
         var i = Number(ini.value)
         var f = Number(fim.value)
         var p = Number(passo.value)
+        if (p <= 0) {
+            window.alert('Passo inválido!')
+            p = 1
+        }
         if (i < f) {
             for(var c = i; c <= f; c +=p) {
                 res.innerHTML += ` ${c} \u{1F449}`
