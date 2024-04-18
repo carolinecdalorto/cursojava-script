@@ -12,7 +12,7 @@ function contar() {
         var p = Number(passo.value)
 
         for (var c = i; c <= f; c +=p) {
-            res.innerHTML += ` ${c}`
+            res.innerHTML += `${c} \u{1F449}`
         }
     }
 }
