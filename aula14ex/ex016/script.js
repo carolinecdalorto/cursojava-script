@@ -4,6 +4,8 @@ function tabuada() {
     if (num.value.lenght == 0) {
         window.alert('Por favor, digite um número!')
     } else {
-        window.alert('Por favor, digite um número!')
+        var n = Number(num.value)
     }
+
+
 }
