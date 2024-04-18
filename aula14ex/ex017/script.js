@@ -5,5 +5,9 @@ function tabuada() {
         window.alert('Por favor, digite um número!')
     } else {
         var n = Number(num.value)
+        var c = 1
+        while (c <= 10) {
+            var item = document.createElement('option')
+        }
     }
 }
