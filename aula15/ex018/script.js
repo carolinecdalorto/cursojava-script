@@ -30,7 +30,7 @@ function adicionar() {
     }
     num.value = ''
     num.focus()
-
+}
 function finalizar() {
     if (valores.length == 0) {
         window.alert('Adicione valores antes de finalizar.')
@@ -40,5 +40,5 @@ function finalizar() {
         res.innerHTML = ''
         res.innerHTML += `<p>Ao todo temos ${tot} numeros.</p>`
     }
-    }
 }
+
