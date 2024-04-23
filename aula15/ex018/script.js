@@ -36,6 +36,7 @@ function finalizar() {
         window.alert('Adicione valores antes de finalizar.')
     } else {
         let tot = valores.length
+       
         res.innerHTML = ''
         res.innerHTML += `<p>Ao todo temos ${tot} numeros.</p>`
     }
