@@ -36,12 +36,6 @@ function finalizar() {
         window.alert('Adicione valores antes de finalizar.')
     } else {
         let tot = valores.length
-        let soma = 0
-        let media = 0
-        let maior
-        let menor
-        
-
         res.innerHTML = ''
         res.innerHTML += `<p>Ao todo temos ${tot} numeros.</p>`
     }
