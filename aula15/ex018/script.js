@@ -28,4 +28,6 @@ function adicionar() {
     } else {
         window.alert('valor inválido ou já encontrado na lista.')
     }
+    num.value = ''
+    num.focus()
 }
